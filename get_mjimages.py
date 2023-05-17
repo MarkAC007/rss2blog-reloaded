@@ -4,7 +4,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 import pyautogui as pg
 
-discord_token = "MTA3Mjk4NjMzNDA3Mjk0Njc1OA.GiC_LQ.DxpOaYM7-dCZoh4zvQi94KnUDUemVc2NvslrgE"
+load_dotenv()
 
 # Using readlines()
 prompt_file = open('prompts.txt', 'r')
@@ -12,7 +12,8 @@ prompts = prompt_file.readlines()
 
 prompt_counter = 0
 
-load_dotenv()
+discord_token = os.environ.get('DISCORD_TOKEN')
+
 client = commands.Bot(command_prefix="*", intents=discord.Intents.all())
 
 @client.event

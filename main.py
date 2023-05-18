@@ -2,6 +2,7 @@ import logging
 import os
 import openai
 import requests
+from datetime import datetime
 from rss_parser import parse_rss_feed
 from wordpress_api import upload_image, create_post
 from dotenv import load_dotenv
@@ -36,6 +37,13 @@ def generate_image_description(prompt):
     )
     return response['data'][0]['url']
 
+def save_image_description_to_file(image_description):
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"{timestamp}_image_descriptions.txt"
+    
+    with open(filename, "a") as file:
+        file.write(f"{image_description}, in the style of art deco, illustration by Yoshiyuki Sadamoto.\n")
+
 rss_feed_list = parse_rss_feed("rss_feeds.txt")
 
 for rss_feed in rss_feed_list:
@@ -47,6 +55,9 @@ for rss_feed in rss_feed_list:
 
     image_prompt = f"You are a helpful assistant that creates images based on articles titles. Create a brief visual description of what an image would look like for the title: {rss_title}"
     image_description = generate_text(image_prompt)
+
+    # Save image_description to a text file
+    save_image_description_to_file(image_description)
 
     title_prompt = f"You are a WordPress title generator. Create a concise title for the blog post that is catchy and optimized for search engines. Remove all HTML in the response and do not use quotes. {rss_title}"
     post_title = generate_text(title_prompt)

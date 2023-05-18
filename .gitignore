@@ -2,3 +2,5 @@
 .env
 __pycache__/rss_parser.cpython-310.pyc
 prompts.txt
+*.pyc
+newfile.log

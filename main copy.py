@@ -29,34 +29,13 @@ def generate_text(prompt):
     )
     return response.choices[0].text.strip()
 
-STABILITYAI_API_KEY = os.environ.get('STABILITYAI_API_KEY')
-
-engine_id = "stable-diffusion-v1-5"
-
 def generate_image_description(prompt):
-    response = requests.post(
-        f"https://api.stability.ai/v1/generation/{engine_id}/text-to-image",
-        headers = {
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-            "Authorization": f"Bearer {STABILITYAI_API_KEY}"
-        },
-        json={
-            "text_prompts": [
-                {
-                    "text": prompt
-                }
-            ]
-        }
+    response = openai.Image.create(
+        prompt=prompt,
+        n=1,
+        size="1024x1024"
     )
-    response_data = response.json()
-    if response.status_code == 200 and "data" in response_data:
-        return response_data["data"][0]["url"]
-    else:
-        error_message = response_data.get('message', 'Unknown error')
-        logger.error(f"Error generating image: {error_message} (Status code: {response.status_code})")
-        return None
-
+    return response['data'][0]['url']
 
 def save_image_description_to_file(image_description, output_file="prompts.txt"):
     with open(output_file, "a") as file:

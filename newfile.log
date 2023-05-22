@@ -1,33 +1,121 @@
-2023-05-18 10:48:12,243 EUC-JP Japanese prober hit error at byte 28773
-2023-05-18 10:48:12,273 GB2312 Chinese prober hit error at byte 28775
-2023-05-18 10:48:12,310 EUC-KR Korean prober hit error at byte 28773
-2023-05-18 10:48:12,342 CP949 Korean prober hit error at byte 28773
-2023-05-18 10:48:12,371 Big5 Chinese prober hit error at byte 28774
-2023-05-18 10:48:12,417 EUC-TW Taiwan prober hit error at byte 28773
-2023-05-18 10:48:12,479 utf-8  confidence = 0.505
-2023-05-18 10:48:12,479 SHIFT_JIS Japanese confidence = 0.01
-2023-05-18 10:48:12,479 EUC-JP not active
-2023-05-18 10:48:12,479 GB2312 not active
-2023-05-18 10:48:12,479 EUC-KR not active
-2023-05-18 10:48:12,479 CP949 not active
-2023-05-18 10:48:12,479 Big5 not active
-2023-05-18 10:48:12,479 EUC-TW not active
-2023-05-18 10:48:12,479 windows-1251 Russian confidence = 0.01
-2023-05-18 10:48:12,479 KOI8-R Russian confidence = 0.01
-2023-05-18 10:48:12,479 ISO-8859-5 Russian confidence = 0.01
-2023-05-18 10:48:12,479 MacCyrillic Russian confidence = 0.0
-2023-05-18 10:48:12,479 IBM866 Russian confidence = 0.0
-2023-05-18 10:48:12,479 IBM855 Russian confidence = 0.01
-2023-05-18 10:48:12,479 ISO-8859-7 Greek confidence = 0.01
-2023-05-18 10:48:12,479 windows-1253 Greek confidence = 0.01
-2023-05-18 10:48:12,479 ISO-8859-5 Bulgarian confidence = 0.01
-2023-05-18 10:48:12,479 windows-1251 Bulgarian confidence = 0.01
-2023-05-18 10:48:12,479 TIS-620 Thai confidence = 0.01
-2023-05-18 10:48:12,479 ISO-8859-9 Turkish confidence = 0.5805277457085839
-2023-05-18 10:48:12,479 windows-1255 Hebrew confidence = 0.0
-2023-05-18 10:48:12,479 windows-1255 Hebrew confidence = 0.01
-2023-05-18 10:48:12,479 windows-1255 Hebrew confidence = 0.01
-2023-05-18 10:48:19,929 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
-2023-05-18 10:48:19,929 api_version=None data='{"prompt": "You are a helpful assistant that summarizes articles about artificial intelligence in a funny and witty way. Start with a bulleted list containing a breakdown of the article\'s key points, and create a closing paragraph with your \\"<h3>Hot Take</h3>\\". Include h1, h2, h3 tags in the final output where appropriate. <p>AI has captured the world\\u2019s attention. Thanks to popular tools like ChatGPT, AI is more relevant than ever, and businesses are trying to capitalize on the technology. However, this rising adoption has some workers feeling unsure of their future. Many businesses and AI enthusiasts cite how the technology won\\u2019t replace you but rather help you [&#8230;]</p>\\n<p>The post <a href=\\"https://www.aiiottalk.com/ai-to-enhance-human-employees-or-replace-them/\\" rel=\\"nofollow\\">Is AI Here to Enhance Human Employees or Replace Them?</a> appeared first on <a href=\\"https://www.aiiottalk.com\\" rel=\\"nofollow\\">AiiotTalk - Artificial Intelligence | Robotics | Technology</a>.</p>", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
-2023-05-18 10:48:19,929 Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
-2023-05-18 10:48:19,931 Starting new HTTPS connection (1): api.openai.com:443
+2023-05-21 10:38:09,674 EUC-JP Japanese prober hit error at byte 28773
+2023-05-21 10:38:09,752 GB2312 Chinese prober hit error at byte 28775
+2023-05-21 10:38:09,819 EUC-KR Korean prober hit error at byte 28773
+2023-05-21 10:38:09,884 CP949 Korean prober hit error at byte 28773
+2023-05-21 10:38:09,959 Big5 Chinese prober hit error at byte 28774
+2023-05-21 10:38:10,042 EUC-TW Taiwan prober hit error at byte 28773
+2023-05-21 10:38:10,219 utf-8  confidence = 0.505
+2023-05-21 10:38:10,219 SHIFT_JIS Japanese confidence = 0.01
+2023-05-21 10:38:10,219 EUC-JP not active
+2023-05-21 10:38:10,219 GB2312 not active
+2023-05-21 10:38:10,219 EUC-KR not active
+2023-05-21 10:38:10,219 CP949 not active
+2023-05-21 10:38:10,219 Big5 not active
+2023-05-21 10:38:10,219 EUC-TW not active
+2023-05-21 10:38:10,219 windows-1251 Russian confidence = 0.01
+2023-05-21 10:38:10,219 KOI8-R Russian confidence = 0.01
+2023-05-21 10:38:10,219 ISO-8859-5 Russian confidence = 0.01
+2023-05-21 10:38:10,219 MacCyrillic Russian confidence = 0.0
+2023-05-21 10:38:10,219 IBM866 Russian confidence = 0.0
+2023-05-21 10:38:10,219 IBM855 Russian confidence = 0.01
+2023-05-21 10:38:10,219 ISO-8859-7 Greek confidence = 0.01
+2023-05-21 10:38:10,219 windows-1253 Greek confidence = 0.01
+2023-05-21 10:38:10,219 ISO-8859-5 Bulgarian confidence = 0.01
+2023-05-21 10:38:10,219 windows-1251 Bulgarian confidence = 0.01
+2023-05-21 10:38:10,219 TIS-620 Thai confidence = 0.01
+2023-05-21 10:38:10,219 ISO-8859-9 Turkish confidence = 0.5805277457085839
+2023-05-21 10:38:10,219 windows-1255 Hebrew confidence = 0.0
+2023-05-21 10:38:10,219 windows-1255 Hebrew confidence = 0.01
+2023-05-21 10:38:10,219 windows-1255 Hebrew confidence = 0.01
+2023-05-21 10:38:21,270 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:38:21,270 api_version=None data='{"prompt": "You are a helpful assistant that summarizes articles about artificial intelligence in a funny and witty way. Start with a bulleted list containing a breakdown of the article\'s key points, and create closing two paragraphs with your \\"<h3>Hot Take</h3>\\". Include h1, h2, h3 tags in the final output where appropriate. <p>In the IT automation landscape, selecting an appropriate solution is critical to efficiently manage tasks, mitigate risks, and enhance overall operational efficiency. Automic Automation is one of many choices in&#8230;</p>\\n<p>The post <a href=\\"https://research.aimultiple.com/automic-competitors/\\" rel=\\"nofollow\\">Top 5 Alternatives to Automic Automation in 2023</a> first appeared on <a href=\\"https://research.aimultiple.com\\" rel=\\"nofollow\\">AIMultiple: High Tech Use Cases &amp; Tools to Grow Your Business</a>.</p>", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:38:21,270 Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-05-21 10:38:21,278 Starting new HTTPS connection (1): api.openai.com:443
+2023-05-21 10:38:43,214 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:38:43,214 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=21578 request_id=a2eff25f6b016c70223d59d7a39c300a response_code=200
+2023-05-21 10:38:43,219 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:38:43,219 api_version=None data='{"prompt": "You are a helpful assistant that creates images based on articles titles. Create a brief visual description of what an image would look like for the title: Top 5 Alternatives to Automic Automation in 2023", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:38:46,219 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:38:46,219 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2797 request_id=5a57d5434c1ec737e773036fcd951b63 response_code=200
+2023-05-21 10:38:46,219 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:38:46,219 api_version=None data='{"prompt": "You are a WordPress title generator. Create a concise title for the blog post that is catchy and optimized for search engines. Remove all HTML in the response and do not use quotes. Top 5 Alternatives to Automic Automation in 2023", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:38:46,717 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:38:46,718 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=271 request_id=b08cb3f4a00fd87b31b5221d15e3c0f0 response_code=200
+2023-05-21 10:38:46,719 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+2023-05-21 10:38:46,719 api_version=None data='{"prompt": "A person in a futuristic-looking uniform is standing in front of a control panel with five different buttons, each representing one of the top 5 alternatives to Automic Automation in 2023. The control panel is brightly lit and the buttons have labels indicating the name of each alternative.", "n": 1, "size": "1024x1024"}' message='Post details'
+2023-05-21 10:38:53,173 https://api.openai.com:443 "POST /v1/images/generations HTTP/1.1" 200 None
+2023-05-21 10:38:53,173 message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=6206 request_id=d510929749a4938e2d8bb46c8e125353 response_code=200
+2023-05-21 10:38:53,179 Starting new HTTPS connection (1): oaidalleapiprodscus.blob.core.windows.net:443
+2023-05-21 10:38:53,879 https://oaidalleapiprodscus.blob.core.windows.net:443 "GET /private/org-El1I4Hb7KKbgYtNpKBkDKmZl/user-XJfJ0hTGKuaWszCncGU7FJ13/img-etUbnXgACZxEDUnamEZpY1mm.png?st=2023-05-21T08%3A38%3A53Z&se=2023-05-21T10%3A38%3A53Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-05-21T08%3A15%3A05Z&ske=2023-05-22T08%3A15%3A05Z&sks=b&skv=2021-08-06&sig=JLc15wJ3dMfqDhzsAJBCLrjEUV2U91tyqtj/jgjSNgQ%3D HTTP/1.1" 200 3147977
+2023-05-21 10:39:03,925 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:39:03,925 api_version=None data='{"prompt": "You are a helpful assistant that summarizes articles about artificial intelligence in a funny and witty way. Start with a bulleted list containing a breakdown of the article\'s key points, and create closing two paragraphs with your \\"<h3>Hot Take</h3>\\". Include h1, h2, h3 tags in the final output where appropriate. <p>In 2021, the average SaaS application portfolio of a company was 254 different apps (Figure 1). However,&#160;when it comes to app engagement, more employees are engaging with shadow IT apps&#8230;</p>\\n<p>The post <a href=\\"https://research.aimultiple.com/economical-ipaas/\\" rel=\\"nofollow\\">Top 6 Economical iPaaS Vendors Offering Affordable Integration</a> first appeared on <a href=\\"https://research.aimultiple.com\\" rel=\\"nofollow\\">AIMultiple: High Tech Use Cases &amp; Tools to Grow Your Business</a>.</p>", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:39:29,892 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:39:29,892 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=25782 request_id=04c1818f119c9ea4f64d83faef77a446 response_code=200
+2023-05-21 10:39:29,899 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:39:29,900 api_version=None data='{"prompt": "You are a helpful assistant that creates images based on articles titles. Create a brief visual description of what an image would look like for the title: Top 6 Economical iPaaS Vendors Offering Affordable Integration", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:39:33,000 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:39:33,000 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2746 request_id=e19e05bb545c7c6804fc489f7b579258 response_code=200
+2023-05-21 10:39:33,000 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:39:33,004 api_version=None data='{"prompt": "You are a WordPress title generator. Create a concise title for the blog post that is catchy and optimized for search engines. Remove all HTML in the response and do not use quotes. Top 6 Economical iPaaS Vendors Offering Affordable Integration", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:39:33,505 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:39:33,506 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=305 request_id=fdfd1d1b956d90f76045559f3fa8b2f4 response_code=200
+2023-05-21 10:39:33,506 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+2023-05-21 10:39:33,506 api_version=None data='{"prompt": "Solutions\\n\\nA digital illustration of a stack of 6 differently colored boxes, representing each of the iPaaS vendors, with a golden dollar sign in the center of the stack, representing the affordable integration solutions.", "n": 1, "size": "1024x1024"}' message='Post details'
+2023-05-21 10:39:39,634 https://api.openai.com:443 "POST /v1/images/generations HTTP/1.1" 200 None
+2023-05-21 10:39:39,634 message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=5969 request_id=dc85087786d69357e912b65e67a7e77c response_code=200
+2023-05-21 10:39:39,634 Starting new HTTPS connection (1): oaidalleapiprodscus.blob.core.windows.net:443
+2023-05-21 10:39:40,217 https://oaidalleapiprodscus.blob.core.windows.net:443 "GET /private/org-El1I4Hb7KKbgYtNpKBkDKmZl/user-XJfJ0hTGKuaWszCncGU7FJ13/img-Qa3bcrgt9t070l3TUkCJTwyx.png?st=2023-05-21T08%3A39%3A40Z&se=2023-05-21T10%3A39%3A40Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-05-21T07%3A35%3A35Z&ske=2023-05-22T07%3A35%3A35Z&sks=b&skv=2021-08-06&sig=VzGGODzTVE/AiIKMMDEfxO0%2BDLMFN07OiXgCM6dpZV4%3D HTTP/1.1" 200 3147977
+2023-05-21 10:39:46,417 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:39:46,417 api_version=None data='{"prompt": "You are a helpful assistant that summarizes articles about artificial intelligence in a funny and witty way. Start with a bulleted list containing a breakdown of the article\'s key points, and create closing two paragraphs with your \\"<h3>Hot Take</h3>\\". Include h1, h2, h3 tags in the final output where appropriate. <p>Many options exist in the workload automation software landscape. Stonebranch, while being a recognized name in the industry, has alternatives that may provide a more tailored fit for specific organizational&#8230;</p>\\n<p>The post <a href=\\"https://research.aimultiple.com/stonebranch-alternatives/\\" rel=\\"nofollow\\">Top 5 Stonebranch Alternatives in 2023</a> first appeared on <a href=\\"https://research.aimultiple.com\\" rel=\\"nofollow\\">AIMultiple: High Tech Use Cases &amp; Tools to Grow Your Business</a>.</p>", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:40:08,533 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:40:08,533 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=21855 request_id=1e001059e3b80f5577a33f175c8a9e56 response_code=200
+2023-05-21 10:40:08,533 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:40:08,533 api_version=None data='{"prompt": "You are a helpful assistant that creates images based on articles titles. Create a brief visual description of what an image would look like for the title: Top 5 Stonebranch Alternatives in 2023", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:40:10,869 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:40:10,874 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2157 request_id=25e59e4c163c3808438867b7196cfe48 response_code=200
+2023-05-21 10:40:10,875 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:40:10,875 api_version=None data='{"prompt": "You are a WordPress title generator. Create a concise title for the blog post that is catchy and optimized for search engines. Remove all HTML in the response and do not use quotes. Top 5 Stonebranch Alternatives in 2023", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:40:12,059 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:40:12,067 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=1002 request_id=ea93d694b5ec4e83349056e1a888990d response_code=200
+2023-05-21 10:40:12,069 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+2023-05-21 10:40:12,069 api_version=None data='{"prompt": "An image of a chart showing the top 5 Stonebranch alternatives in 2023, with each alternative listed and a comparison of features such as price, scalability, security, etc.", "n": 1, "size": "1024x1024"}' message='Post details'
+2023-05-21 10:40:19,189 https://api.openai.com:443 "POST /v1/images/generations HTTP/1.1" 200 None
+2023-05-21 10:40:19,192 message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=6936 request_id=2619092093026a7387ba37ea6a34df1c response_code=200
+2023-05-21 10:40:19,199 Starting new HTTPS connection (1): oaidalleapiprodscus.blob.core.windows.net:443
+2023-05-21 10:40:19,952 https://oaidalleapiprodscus.blob.core.windows.net:443 "GET /private/org-El1I4Hb7KKbgYtNpKBkDKmZl/user-XJfJ0hTGKuaWszCncGU7FJ13/img-CbprUHljvNR84EmmotBH5ArA.png?st=2023-05-21T08%3A40%3A19Z&se=2023-05-21T10%3A40%3A19Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-05-20T15%3A52%3A48Z&ske=2023-05-21T15%3A52%3A48Z&sks=b&skv=2021-08-06&sig=BdFmicAiTe9Vc575WNl9raEUOrBGtqWLxqdzG0QAoF8%3D HTTP/1.1" 200 3147977
+2023-05-21 10:40:25,539 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:40:25,539 api_version=None data='{"prompt": "You are a helpful assistant that summarizes articles about artificial intelligence in a funny and witty way. Start with a bulleted list containing a breakdown of the article\'s key points, and create closing two paragraphs with your \\"<h3>Hot Take</h3>\\". Include h1, h2, h3 tags in the final output where appropriate. Vision loss comes in various forms. For some, it\\u2019s from birth, for others, it\\u2019s a slow descent over time which comes with many expiration dates: The day you can\\u2019t see pictures, recognize yourself, or loved ones faces or even read your mail. In our previous blogpost Enable the Visually Impaired to Hear Documents using Amazon [\\u2026]", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:40:43,720 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:40:43,720 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=17839 request_id=9431d6fe9222265c29bf98a63496442f response_code=200
+2023-05-21 10:40:43,720 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:40:43,720 api_version=None data='{"prompt": "You are a helpful assistant that creates images based on articles titles. Create a brief visual description of what an image would look like for the title: Introducing an image-to-speech Generative AI application using Amazon SageMaker and Hugging Face", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:40:48,669 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:40:48,676 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=4692 request_id=a40cd8b2b4f3c291bb43f34c1b2d92b5 response_code=200
+2023-05-21 10:40:48,676 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:40:48,679 api_version=None data='{"prompt": "You are a WordPress title generator. Create a concise title for the blog post that is catchy and optimized for search engines. Remove all HTML in the response and do not use quotes. Introducing an image-to-speech Generative AI application using Amazon SageMaker and Hugging Face", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:40:49,907 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:40:49,909 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=934 request_id=c5638b02b76d54f94322b3e1cb5597fd response_code=200
+2023-05-21 10:40:49,911 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+2023-05-21 10:40:49,911 api_version=None data='{"prompt": "The image would feature a house with a robotic-looking figure in front of it, surrounded by a cloud of data and icons representing AI applications. The figure appears to be speaking, with a speech bubble coming out of its mouth in the shape of a question mark. In the background, the Amazon SageMaker and Hugging Face logos are displayed.", "n": 1, "size": "1024x1024"}' message='Post details'
+2023-05-21 10:40:56,774 https://api.openai.com:443 "POST /v1/images/generations HTTP/1.1" 200 None
+2023-05-21 10:40:56,776 message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=6602 request_id=a886475f44250dbfb57bb8e9e3b395ff response_code=200
+2023-05-21 10:40:56,779 Starting new HTTPS connection (1): oaidalleapiprodscus.blob.core.windows.net:443
+2023-05-21 10:40:57,539 https://oaidalleapiprodscus.blob.core.windows.net:443 "GET /private/org-El1I4Hb7KKbgYtNpKBkDKmZl/user-XJfJ0hTGKuaWszCncGU7FJ13/img-OhjrIJIDfVyJym3OI7h3EnUE.png?st=2023-05-21T08%3A40%3A57Z&se=2023-05-21T10%3A40%3A57Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-05-20T11%3A18%3A17Z&ske=2023-05-21T11%3A18%3A17Z&sks=b&skv=2021-08-06&sig=AKI4j7Rtw65Tv1/uNvziN%2BQhpJXAdEs5KrwsvNFlf28%3D HTTP/1.1" 200 3147977
+2023-05-21 10:41:07,000 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:41:07,000 api_version=None data='{"prompt": "You are a helpful assistant that summarizes articles about artificial intelligence in a funny and witty way. Start with a bulleted list containing a breakdown of the article\'s key points, and create closing two paragraphs with your \\"<h3>Hot Take</h3>\\". Include h1, h2, h3 tags in the final output where appropriate. <p>In today&#8217;s digital landscape, effectively managing IT operations has become increasingly challenging for organizations. IT teams face significant challenges in effectively monitoring, analyzing, and responding to incidents because of the complexity of IT environments and the exponential growth of generated data. AIOps, or artificial intelligence for IT operations, however, stands...<br /><a href=\\"https://bigdataanalyticsnews.com/aiops-transforming-it-operations/\\">Read more &#187;</a></p>\\n<p>The post <a href=\\"https://bigdataanalyticsnews.com/aiops-transforming-it-operations/\\" rel=\\"nofollow\\">How Is AIOps Transforming the Future of IT Operations?</a> appeared first on <a href=\\"https://bigdataanalyticsnews.com\\" rel=\\"nofollow\\">Big Data Analytics News</a>.</p>", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:41:26,369 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:41:26,369 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=19114 request_id=aca42cdf5182f7e09f340fd39e63aba3 response_code=200
+2023-05-21 10:41:26,372 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:41:26,372 api_version=None data='{"prompt": "You are a helpful assistant that creates images based on articles titles. Create a brief visual description of what an image would look like for the title: How Is AIOps Transforming the Future of IT Operations?", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:41:29,336 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:41:29,336 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=2303 request_id=d16e1c06e44df07b231f391ef6729c49 response_code=200
+2023-05-21 10:41:29,339 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-003/completions
+2023-05-21 10:41:29,339 api_version=None data='{"prompt": "You are a WordPress title generator. Create a concise title for the blog post that is catchy and optimized for search engines. Remove all HTML in the response and do not use quotes. How Is AIOps Transforming the Future of IT Operations?", "max_tokens": 3000, "n": 1, "stop": null, "temperature": 0.7}' message='Post details'
+2023-05-21 10:41:30,560 https://api.openai.com:443 "POST /v1/engines/text-davinci-003/completions HTTP/1.1" 200 None
+2023-05-21 10:41:30,564 message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-003/completions processing_ms=962 request_id=2de67191b2370f91aa57e54df7bdedc3 response_code=200
+2023-05-21 10:41:30,564 message='Request to OpenAI API' method=post path=https://api.openai.com/v1/images/generations
+2023-05-21 10:41:30,564 api_version=None data='{"prompt": "A futuristic cityscape with robotic figures and flying vehicles, with a giant robotic arm in the center reaching up to the sky, symbolizing the power of AIOps in transforming IT operations.", "n": 1, "size": "1024x1024"}' message='Post details'
+2023-05-21 10:41:36,904 https://api.openai.com:443 "POST /v1/images/generations HTTP/1.1" 200 None
+2023-05-21 10:41:36,909 message='OpenAI API response' path=https://api.openai.com/v1/images/generations processing_ms=6163 request_id=e3c8604d959d2503fc381db467afcf06 response_code=200
+2023-05-21 10:41:36,912 Starting new HTTPS connection (1): oaidalleapiprodscus.blob.core.windows.net:443
+2023-05-21 10:41:37,729 https://oaidalleapiprodscus.blob.core.windows.net:443 "GET /private/org-El1I4Hb7KKbgYtNpKBkDKmZl/user-XJfJ0hTGKuaWszCncGU7FJ13/img-kVAZuCxdL3WIlMrCgkhsUIBk.png?st=2023-05-21T08%3A41%3A37Z&se=2023-05-21T10%3A41%3A37Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-05-20T18%3A52%3A13Z&ske=2023-05-21T18%3A52%3A13Z&sks=b&skv=2021-08-06&sig=2rutu2CJBspopWG661Om%2BFZuyD706q8kft97y2OkSyU%3D HTTP/1.1" 200 3147977

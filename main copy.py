@@ -47,11 +47,11 @@ rss_feed_list = parse_rss_feed("rss_feeds.txt")
 for rss_feed in rss_feed_list:
     rss_title, rss_description, rss_url = rss_feed.values()
 
-    article_prompt = f"You are a helpful assistant that summarizes articles about artificial intelligence in a funny and witty way. Start with a bulleted list containing a breakdown of the article's key points, and create closing two paragraphs with your \"<h3>Hot Take</h3>\". Include h1, h2, h3 tags in the final output where appropriate. {rss_description}"
+    article_prompt = f"You are a helpful assistant that summarizes articles about artificial intelligence in a funny and witty way. Start with a bulleted list containing a breakdown of the article's key points, and then create closing two paragraphs with about 500 words, to include your \"<h3>Hot Take</h3>\". Include h1, h2, h3 tags in the final output where appropriate. {rss_description}"
     article_content = generate_text(article_prompt)
     article_content += f"\nTo learn more, check out the source here: {rss_url}"
 
-    image_prompt = f"You are a helpful assistant that creates images based on articles titles. Create a brief visual description of what an image would look like for the title: {rss_title}"
+    image_prompt = f"You are a helpful assistant that creates images based on articles titles. Create a midjourney prompt for what an image would look like for the title: {rss_title}"
     image_description = generate_text(image_prompt)
 
     # Save image_description to a text file

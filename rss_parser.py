@@ -11,7 +11,7 @@ def parse_rss_feed(file_path):
             feed = feedparser.parse(line.strip())
             for entry in feed.entries:
                 # Check if the entry was published today
-                if datetime(*entry.published_parsed[:6]) >= datetime.now() - timedelta(days=2):
+                if datetime(*entry.published_parsed[:6]) >= datetime.now() - timedelta(days=1):
                     rss_feed_list.append({
                         "title": entry.title,
                         "description": entry.description,

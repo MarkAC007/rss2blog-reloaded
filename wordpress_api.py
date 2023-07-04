@@ -5,9 +5,9 @@ from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods.posts import NewPost
 from wordpress_xmlrpc.methods.media import UploadFile
 
-WP_URL = "https://whataboutitai.blog/xmlrpc.php"
-WP_USERNAME = "ginganinja007"
-WP_PASSWORD = "X33yMegps@TXR9_ZQmkQ"
+WP_URL = "https://siteurl/xmlrpc.php"
+WP_USERNAME = ""
+WP_PASSWORD = ""
 
 client = Client(WP_URL, WP_USERNAME, WP_PASSWORD)
 
